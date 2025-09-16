@@ -44,7 +44,7 @@ export const Login = () => {
   // console.log(user)
   //
 
-  function onCapture() {
+  useEffect(() => {
     window.recaptchaVerifier = new RecaptchaVerifier(
       "recaptcha-container",
       {
@@ -57,12 +57,11 @@ export const Login = () => {
       },
       auth
     );
-  }
+  }, []);
 
   function handleVerifyNumber() {
     document.querySelector("#nextText").innerText = "Please wait...";
-    onCapture();
-    const phoneNumber = `+91${number}`;
+    const phoneNumber = `+1${number}`;
     const appVerifier = window.recaptchaVerifier;
     if (number.length === 10) {
       if (exist) {
