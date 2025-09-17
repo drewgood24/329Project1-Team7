@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { getAuth, connectAuthEmulator } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -19,5 +20,11 @@ const firebaseConfig = {
 // Initialize Firebase
 const firebase_app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(firebase_app);
+const auth = getAuth(firebase_app);
+
+// Connect to the Authentication emulator
+if (window.location.hostname === "localhost") {
+  connectAuthEmulator(auth, "http://localhost:9099"); // Default port for Auth emulator
+}
 
 export default firebase_app
