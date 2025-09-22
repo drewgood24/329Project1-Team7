@@ -71,11 +71,12 @@ const swapValuehandler = () => {
                 value={PassengerData.from}
                 onChange={handleChange}
               >
+                {/*Edited the destinations*/}
                 <option value="From">From</option>
-                <option value="DELHI">DELHI</option>
-                <option value="MUMBAI">MUMBAI</option>
-                <option value="BANGLURU">BANGLURU</option>
-                <option value="PUNE">PUNE</option>
+                <option value="ABUJA">ABUJA</option>
+                <option value="CHICAGO">CHICAGO</option>
+                <option value="TOKYO">TOKYO</option>
+                <option value="DES MOINES">DES MOINES</option>
               </select>
 
               <button onClick={swapValuehandler}>
@@ -94,11 +95,12 @@ const swapValuehandler = () => {
                 value={PassengerData.to}
                 onChange={handleChange}
               >
-                <option value="To">To</option>
-                <option value="DELHI">DELHI</option>
-                <option value="MUMBAI">MUMBAI</option>
-                <option value="BANGLURU">BANGLURU</option>
-                <option value="PUNE">PUNE</option>
+                {/*Edited the destinations*/}
+                <option value="From">From</option>
+                <option value="ABUJA">ABUJA</option>
+                <option value="CHICAGO">CHICAGO</option>
+                <option value="TOKYO">TOKYO</option>
+                <option value="DES MOINES">DES MOINES</option>
               </select>
             </div>
             <div className="MainSearchinputBx">
