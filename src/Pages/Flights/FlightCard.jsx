@@ -13,7 +13,7 @@ export default function FlightCard({ data }) {
     //   .catch((err) => console.log(err))
 
     toast({
-      title: "Flight added to cart",
+      title: "Flight Add to Cart",
       description: "Please Proceed to Payment",
       status: "success",
       duration: 9000,
@@ -30,7 +30,7 @@ export default function FlightCard({ data }) {
     height: "43px",
     background: "teal",
     color: " #FFFFFF",
-    borderRadius: "0.5rem",
+    bordeRadius: "0.5rem",
     position: "relative",
     marginBottom: "1rem",
   };
@@ -70,7 +70,7 @@ export default function FlightCard({ data }) {
         <b style={{ fontSize: "14px" }}>{to} </b>
       </Flex>
       <Flex display={"flex"} flexDirection="column">
-  <h3>Duration</h3>
+        <h3>Duation</h3>
         <b>{totalTime}</b>
       </Flex>
       <Flex display={"flex"} flexDirection="column">
