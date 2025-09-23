@@ -12,12 +12,65 @@ export default function FlightCard({ data }) {
     //   .then((res) => console.log(res))
     //   .catch((err) => console.log(err))
 
+    // Modern glassmorphism toast notification with premium styling
     toast({
-      title: "Flight Add to Cart",
-      description: "Please Proceed to Payment",
-      status: "success",
-      duration: 9000,
-      isClosable: true,
+      render: () => (
+        <Box
+          // Glassmorphism background: translucent white with blur effect
+          bg="rgba(255, 255, 255, 0.92)"
+          color="#1A202C"
+          px={6}
+          py={4}
+          borderRadius="16px"
+          // Layered shadows for depth and premium feel
+          boxShadow="0 20px 40px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05)"
+          backdropFilter="blur(24px)"
+          border="1px solid rgba(255, 255, 255, 0.6)"
+          // Refined typography with tight letter spacing
+          fontSize="15px"
+          fontWeight="500"
+          letterSpacing="-0.01em"
+          display="flex"
+          alignItems="center"
+          gap={3}
+          maxW="340px"
+          // Smooth animation setup
+          transform="translateY(0)"
+          transition="all 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        >
+          {/* Success indicator: teal gradient circle with checkmark */}
+          <Box
+            w="20px"
+            h="20px"
+            borderRadius="full"
+            bg="linear-gradient(135deg, #38B2AC, #319795)"
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            fontSize="10px"
+            color="white"
+            fontWeight="bold"
+            flexShrink={0}
+          >
+            ✓
+          </Box>
+          
+          {/* Two-line message with typography hierarchy */}
+          <Box lineHeight="1.4">
+            {/* Primary message: bold, darker text */}
+            <Box fontWeight="600" fontSize="14px" color="#2D3748">
+              Flight added successfully
+            </Box>
+            {/* Secondary message: lighter, muted text */}
+            <Box fontSize="13px" color="#718096" mt="1px">
+              Ready for checkout
+            </Box>
+          </Box>
+        </Box>
+      ),
+      duration: 4000,
+      isClosable: false,
+      position: "top", // Appears at top center of screen
     });
   };
 
