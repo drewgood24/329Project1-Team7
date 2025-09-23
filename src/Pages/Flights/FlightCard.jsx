@@ -83,7 +83,7 @@ export default function FlightCard({ data }) {
     height: "43px",
     background: "teal",
     color: " #FFFFFF",
-    bordeRadius: "0.5rem",
+    borderRadius: "0.5rem",
     position: "relative",
     marginBottom: "1rem",
   };
