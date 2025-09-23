@@ -8,15 +8,19 @@ import {
   RadioGroup,
   Stack,
   Radio,
+  Checkbox,
+  CheckboxGroup,
+  HStack,
 } from "@chakra-ui/react";
+import { CheckIcon } from "@chakra-ui/icons";
 import FlightList from "./FlightList";
 import { useState } from "react";
 
 const SideBar = () => {
-  const [priceValue, setPriceValue] = useState(8);
-  const [classes, setClasses] = useState("");
+  const [priceValue, setPriceValue] = useState("8");
+  const [classes, setClasses] = useState([]);
   const [page, setPage] = useState(1);
-  const [Packaging, setpackaging] = useState("");
+  const [packaging, setPackaging] = useState([]);
 
   const pageBtn={
     marginTop: "3%",
@@ -25,7 +29,7 @@ const SideBar = () => {
     height: "43px",
     background: "#3662D8",
     color:" #FFFFFF",
-    bordeRadius: "0.5rem",
+    borderRadius: "0.5rem",
     position: "relative",
     marginBottom:"1rem"
 }
@@ -55,10 +59,22 @@ const SideBar = () => {
             </Heading>
             <RadioGroup onChange={setPriceValue} value={priceValue}>
               <Stack direction="column">
-                <Radio value="5">$ 4000 - $ 5000</Radio>
-                <Radio value="6">$ 5000 - $ 6000</Radio>
-                <Radio value="7">$ 6000 - $ 7000</Radio>
-                <Radio value="8">$ 7000 - $ 8000</Radio>
+                <HStack justifyContent="space-between">
+                  <Radio colorScheme="teal" value="5000">$ 4000 - $ 5000</Radio>
+                  {priceValue === "5000" && <CheckIcon color="teal.500" />}
+                </HStack>
+                <HStack justifyContent="space-between">
+                  <Radio colorScheme="teal" value="6000">$ 5000 - $ 6000</Radio>
+                  {priceValue === "6000" && <CheckIcon color="teal.500" />}
+                </HStack>
+                <HStack justifyContent="space-between">
+                  <Radio colorScheme="teal" value="7000">$ 6000 - $ 7000</Radio>
+                  {priceValue === "7000" && <CheckIcon color="teal.500" />}
+                </HStack>
+                <HStack justifyContent="space-between">
+                  <Radio colorScheme="teal" value="8000">$ 7000 - $ 8000</Radio>
+                  {priceValue === "8000" && <CheckIcon color="teal.500" />}
+                </HStack>
               </Stack>
             </RadioGroup>
           </Box>
@@ -67,26 +83,26 @@ const SideBar = () => {
             <Heading as="h5" size="sm" m="3">
               Filter Class
             </Heading>
-            <RadioGroup onChange={setClasses} value={classes}>
+            <CheckboxGroup onChange={setClasses} value={classes}>
               <Stack direction="column">
-                <Radio value="eco">Economy Class</Radio>
-                <Radio value="business">Business Class</Radio>
-                <Radio value="prime">Premium</Radio>
+                <Checkbox colorScheme="teal" value="eco">Economy Class</Checkbox>
+                <Checkbox colorScheme="teal" value="business">Business Class</Checkbox>
+                <Checkbox colorScheme="teal" value="prime">Premium</Checkbox>
               </Stack>
-            </RadioGroup>
+            </CheckboxGroup>
           </Box>
 
           <Box>
             <Heading as="h5" size="sm" m="3">
               Packaging
             </Heading>
-            <RadioGroup onChange={setpackaging} value={Packaging}>
+            <CheckboxGroup onChange={setPackaging} value={packaging}>
               <Stack direction="column">
-                <Radio value="eco">0 - 15 Kg</Radio>
-                <Radio value="business"> 15 - 30 Kg</Radio>
-                <Radio value="prime"> 30 kg +</Radio>
+                <Checkbox colorScheme="teal" value="0-15">0 - 15 Kg</Checkbox>
+                <Checkbox colorScheme="teal" value="15-30">15 - 30 Kg</Checkbox>
+                <Checkbox colorScheme="teal" value="30plus">30 kg +</Checkbox>
               </Stack>
-            </RadioGroup>
+            </CheckboxGroup>
           </Box>
         </Box>
         <Box
@@ -127,7 +143,12 @@ const SideBar = () => {
               </Stack>
           {/* Pagination Part UI End */}
 
-          <FlightList page={page} priceValue={priceValue} />
+          <FlightList 
+          page={page} 
+          priceValue={Number(priceValue)}
+          classes={classes}
+          packaging={packaging} 
+          />
         </Box>
       </Box>
   );

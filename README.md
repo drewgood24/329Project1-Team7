@@ -132,7 +132,7 @@
 - Login and signup via firebase (OTP).
 - View details of flights, hotels.
 - Search for flights, hotels, and holiday packages
-- Sorting & Filtering and Seraching
+- Sorting & Filtering and Searching
 - Book flights, hotels.
 - Cart Section
 - Admin Panel

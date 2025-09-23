@@ -54,7 +54,7 @@ function Stay() {
             onFocus={handleOnFocus}
             formatResult={formatResult}
             showIcon={false}
-            placeholder={"Going to"}
+            placeholder={"Where to?"}
             styling={{
               height: "44px",
               border: "1px solid #dfe1e5",
