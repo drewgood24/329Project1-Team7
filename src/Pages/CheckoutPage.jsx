@@ -10,12 +10,12 @@ import {AiOutlineWifi} from 'react-icons/ai'
 const CheckoutPage = () => {
   return (
 
-      <Box bg={'gray.300'} width={'100%'} height={'1000px'} >
+      <Box bg={'gray.50'} width={'100%'} minH={'100vh'} >
 
-        <Box width={'85%'} margin={'auto'} >
-          <Heading fontSize={'26px'} fontWeight={'bold'} textAlign={'left'} >Review and Book</Heading>
+        <Box width={'85%'} margin={'auto'} py={6} >
+          <Heading fontSize={'28px'} fontWeight={'semibold'} textAlign={'left'} mb={2}>Review and Book</Heading>
 
-          <Box bg={'white'} mt={2} p={3} >
+          <Box bg={'white'} mt={2} p={4} borderWidth={'1px'} borderColor={'gray.200'} rounded={'lg'} boxShadow={'sm'} >
             <HStack>
               <Box>
                 <Image src='https://i.postimg.cc/mZmMdvzw/Screenshot-2023-04-01-130744.png' alt='image' />
@@ -31,9 +31,9 @@ const CheckoutPage = () => {
             </HStack>
           </Box>
 
-          <SimpleGrid mt={2} gridTemplateColumns={'63% 35%'} gap={"1%"} >
-            <Box bg={'white'} p={3}  >
-              <Heading textAlign={'left'} fontSize={'20px'} fontWeight={'bold'}  >Whos Checking</Heading>
+          <SimpleGrid mt={4} gridTemplateColumns={'63% 35%'} gap={'2%'} >
+            <Box bg={'white'} p={6} borderWidth={'1px'} borderColor={'gray.200'} rounded={'lg'} boxShadow={'sm'} >
+              <Heading textAlign={'left'} fontSize={'20px'} fontWeight={'semibold'} mb={2} >Who’s Checking</Heading>
               <Heading textAlign={'left'} mt={3} fontWeight={'semibold'} >Room 1 : 2 Adult 2 twin bed non smoking</Heading>
               <Box  >
                 <Box textAlign={'left'} my={2} >
@@ -60,7 +60,7 @@ const CheckoutPage = () => {
 
             </Box>
 
-            <Box bg={'white'} textAlign={'left'} p={2} >
+            <Box bg={'white'} textAlign={'left'} p={4} borderWidth={'1px'} borderColor={'gray.200'} rounded={'lg'} boxShadow={'sm'} >
               <Image mb={1} width={'100%'} src='https://images.trvl-media.com/lodging/4000000/3450000/3447500/3447485/4c0514cb_l.jpg' />
               <Heading fontSize={'13px'} >8.8/10 Excellent (820 reviews)</Heading>
               <Heading fontSize={'13px'}>Guests rated this property 9/10 for cleanliness</Heading>
@@ -75,9 +75,9 @@ const CheckoutPage = () => {
             </Box>
           </SimpleGrid>
 
-          <SimpleGrid mt={2} gridTemplateColumns={'63% 35%'} gap={"1%"} >
-            <Box bg={'white'} p={3}  >
-              <Heading textAlign={'left'} fontSize={'20px'} fontWeight={'bold'}  >Payment Method</Heading>
+          <SimpleGrid mt={4} gridTemplateColumns={'63% 35%'} gap={'2%'} >
+            <Box bg={'white'} p={6} borderWidth={'1px'} borderColor={'gray.200'} rounded={'lg'} boxShadow={'sm'}  >
+              <Heading textAlign={'left'} fontSize={'20px'} fontWeight={'semibold'}  >Payment Method</Heading>
               <Heading textAlign={'left'} mt={3} fontWeight={'semibold'} >₹0.00 due now. Payment information is only needed to hold your reservation.</Heading>
               
               <Box display={'flex'} gap={'6px'} >
@@ -111,19 +111,19 @@ const CheckoutPage = () => {
 
             </Box>
 
-            <Box bg={'white'} textAlign={'left'} p={4} >
+            <Box bg={'white'} textAlign={'left'} p={6} borderWidth={'1px'} borderColor={'gray.200'} rounded={'lg'} boxShadow={'sm'} position={{ base: 'static', md: 'sticky' }} top={{ md: 6 }} >
               {/* <Image mb={1} width={'100%'} src='https://images.trvl-media.com/lodging/4000000/3450000/3447500/3447485/4c0514cb_l.jpg' />
               <Heading fontSize={'13px'} >8.8/10 Excellent (820 reviews)</Heading>
               <Heading fontSize={'13px'}>Guests rated this property 9/10 for cleanliness</Heading>
               <Heading fontSize={'13px'}>1 Room: Room, 2 Twin Beds, Non Smoking, City View</Heading> */}
               <Box justifyContent={'space-between'} display={'flex'} >
                 <Box>1 room x 1 night</Box>
-                <Box>$9,500.00</Box>
+                <Box fontWeight={'medium'}>$9,500.00</Box>
               </Box>
 
               <Box justifyContent={'space-between'} display={'flex'} >
                 <Box>Taxes</Box>
-                <Box>$1,710.00</Box>
+                <Box fontWeight={'medium'}>$1,710.00</Box>
               </Box>
 
               <Box justifyContent={'space-between'} display={'flex'} fontWeight={'bold'} >
@@ -140,7 +140,19 @@ const CheckoutPage = () => {
                 <Box>Pay at property</Box>
                 <Box>$11,210.00</Box>
               </Box>
-              <Button mt={4} width={'100%'} height='40px' bg={'#FF9800'}rounded={'7px'} >Complete Booking</Button>
+              <Button
+                mt={4}
+                width={'100%'}
+                height='46px'
+                color={'white'}
+                rounded={'md'}
+                leftIcon={<BsCheck />}
+                bgGradient={'linear(to-r, indigo.500, purple.500)'}
+                _hover={{ bgGradient: 'linear(to-r, indigo.600, purple.600)', boxShadow: 'lg', transform: 'translateY(-1px)' }}
+                _active={{ bgGradient: 'linear(to-r, indigo.700, purple.700)', transform: 'translateY(0)' }}
+              >
+                Complete Booking
+              </Button>
             </Box>
           </SimpleGrid>
         </Box>
