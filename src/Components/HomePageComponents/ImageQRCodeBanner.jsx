@@ -22,11 +22,11 @@ const ImageQRCodeBanner = () => {
             <Heading pl={3} py='2' fontSize={'3xl'} fontWeight='semibold' textAlign={'left'}>Go with the Chalo Ghume App</Heading>
 
             <Text pl={3} py='2' textAlign={'left'} >
-            Save even more - get up to 20% on select hotels and earn double the points when you book on the app. Our app deals help you to save on trips so you can travel more and manage it all on the go.
+            Save even more - get up to 20% on select hotels and earn double the points when you book on the app. Our app deals help you save on trips so you can travel more and manage everything on the go.
             </Text>
 
             <Text pl={3} py='2' textAlign={'left'} fontWeight={'bold'} color={"gray.700"} >
-                Scan the QR code with your device camera and download our app
+                Scan the QR code with your device's camera to download our app.
             </Text>
             </CardBody>
 

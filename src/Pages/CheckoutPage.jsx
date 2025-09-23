@@ -25,7 +25,7 @@ const CheckoutPage = () => {
                   Fully refundable before Sat, 8 Apr, 18:00 (property local time)
                 </Text>
                 <Text>
-                You can change or cancel this stay if plans change. Because flexibility matters.
+                You can change or cancel this stay if plans change, because flexibility matters.
                 </Text>
               </Box>
             </HStack>
@@ -33,22 +33,22 @@ const CheckoutPage = () => {
 
           <SimpleGrid mt={2} gridTemplateColumns={'63% 35%'} gap={"1%"} >
             <Box bg={'white'} p={3}  >
-              <Heading textAlign={'left'} fontSize={'20px'} fontWeight={'bold'}  >Whos Checking</Heading>
-              <Heading textAlign={'left'} mt={3} fontWeight={'semibold'} >Room 1 : 2 Adult 2 twin bed non smoking</Heading>
+              <Heading textAlign={'left'} fontSize={'20px'} fontWeight={'bold'}  >Who's checking in?</Heading>
+              <Heading textAlign={'left'} mt={3} fontWeight={'semibold'} >Room 1: 2 Adults, 2 Twin Beds, Non-Smoking</Heading>
               <Box  >
                 <Box textAlign={'left'} my={2} >
                   <label  >
-                    First Name : <Input type='text' placeholder='First Name' border='1px solid gray' />
+                    First name: <Input type='text' placeholder='First name' border='1px solid gray' />
                   </label>
                 </Box>
                 <Box textAlign={'left'} my={2} >
                   <label>
-                    Surname Name : <Input  type='text' placeholder='Surname' border='1px solid gray' />
+                    Surname: <Input  type='text' placeholder='Surname' border='1px solid gray' />
                   </label>
                 </Box>
                 <Box textAlign={'left'} my={2} >
                   <label>
-                    Mobile No : <Input type='text' placeholder='Mobile No' border='1px solid gray' />
+                    Mobile number: <Input type='text' placeholder='Mobile number' border='1px solid gray' />
                   </label>
                 </Box>
               </Box>
@@ -67,7 +67,7 @@ const CheckoutPage = () => {
               <Heading fontSize={'13px'}>1 Room: Room, 2 Twin Beds, Non Smoking, City View</Heading>
             
               <SimpleGrid gridTemplateColumns={'repeat(2,1fr)'} mt={3} mb={5} >
-                <Box><Icon as={TbBed} fontSize={'18px'} />  2 Twins Bed</Box>
+                <Box><Icon as={TbBed} fontSize={'18px'} />  2 Twin Beds</Box>
                 <Box><Icon as={IoIosMan} fontSize={'18px'} />   Sleeps 3</Box>
                 <Box><Icon as={AiOutlineWifi} fontSize={'18px'} />  Free WiFi</Box>
                 <Box><Icon as={BsCheck} fontSize={'18px'} />  Free parking</Box>
@@ -94,7 +94,7 @@ const CheckoutPage = () => {
                 </Box>
                 <Box textAlign={'left'} my={2} >
                   <label>
-                    <b>Debil/Credit card number : </b> <Input  type='text' placeholder='Surname' border='1px solid gray' />
+                    <b>Debit/Credit card number:</b> <Input  type='text' placeholder='Card number' border='1px solid gray' />
                   </label>
                 </Box>
                 <Box textAlign={'left'} my={2} >

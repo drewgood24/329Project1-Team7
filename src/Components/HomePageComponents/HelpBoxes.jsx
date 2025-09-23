@@ -21,21 +21,21 @@ const HelpBoxes = () => {
                     <Heading textAlign={'left'} p={3} pb={1} fontSize='20px' >Change or cancel a trip</Heading>
                     <Icon as={BsPencilFill}  />
                     </HStack>
-                    <Text textAlign={'left'} p={3} pt={1} color='#616161' fontSize='12px' >Make update to your itenerary or cancel a booking</Text>
+                    <Text textAlign={'left'} p={3} pt={1} color='#616161' fontSize='12px' >Make updates to your itinerary or cancel a booking.</Text>
                 </Box>
                 <Box border='1px solid #E0E0E0' rounded='7px' mt={4} >
                     <HStack justifyContent={'space-between'} pr={2} >
-                    <Heading textAlign={'left'} p={3} pb={1} fontSize='20px' >Use a Credit or Coupan</Heading>
+                    <Heading textAlign={'left'} p={3} pb={1} fontSize='20px' >Use a credit or coupon</Heading>
                     <Icon as={HiCurrencyDollar}  />
                     </HStack>
-                    <Text textAlign={'left'} p={3} pt={1} color='#616161' fontSize='12px' >Apply a coupan code or credit a new trip</Text>
+                    <Text textAlign={'left'} p={3} pt={1} color='#616161' fontSize='12px' >Apply a coupon code or credit toward a new trip.</Text>
                 </Box>
                 <Box border='1px solid #E0E0E0' rounded='7px' mt={4} >
                     <HStack justifyContent={'space-between'} pr={2} >
-                    <Heading textAlign={'left'} p={3} pb={1} fontSize='20px' >Track your Refund</Heading>
+                    <Heading textAlign={'left'} p={3} pb={1} fontSize='20px' >Track your refund</Heading>
                     <Icon as={RiMessage2Fill}  />
                     </HStack>
-                    <Text textAlign={'left'} p={3} pt={1} color='#616161' fontSize='12px' >Check a process of refund currently progress</Text>
+                    <Text textAlign={'left'} p={3} pt={1} color='#616161' fontSize='12px' >Check the progress of your refund.</Text>
                 </Box>
             </SimpleGrid>
         </Box>

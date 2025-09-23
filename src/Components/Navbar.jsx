@@ -86,9 +86,9 @@ import {
                 Support
             </Box>
 
-            <Box fontWeight={'500'} fontSize={{base:'12px',sm:'16px'}} display={'flex'} >
-                Trip
-            </Box>
+      <Box fontWeight={'500'} fontSize={{base:'12px',sm:'16px'}} display={'flex'} >
+        Trips
+      </Box>
 
             <Box fontWeight={'500'} fontSize={{base:'16px',sm:'23px'}}  display={'flex'} >
                 <Icon mt={0.5} mr={1}   as={IoIosNotifications} />

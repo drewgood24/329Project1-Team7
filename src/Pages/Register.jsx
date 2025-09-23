@@ -84,7 +84,7 @@ export const Register = () => {
     if (number.length === 10) {
       if (exist) {
         document.querySelector("#loginMesageError").innerHTML =
-          "User Alredy exist";
+          "User already exists";
         document.querySelector("#loginMesageSuccess").innerHTML = ``;
       } else {
         signInWithPhoneNumber(auth, phoneNumber, appVerifier)
@@ -95,7 +95,7 @@ export const Register = () => {
             setCheck({ ...check, verify: true });
             document.querySelector(
               "#loginMesageSuccess"
-            ).innerHTML = `Otp Send To ${number} !`;
+            ).innerHTML = `OTP sent to ${number}!`;
             document.querySelector("#loginMesageError").innerHTML = "";
             document.querySelector("#nextButton").style.display = "none";
             // ...
@@ -110,11 +110,11 @@ export const Register = () => {
     } else {
       document.querySelector("#loginMesageSuccess").innerHTML = ``;
       document.querySelector("#loginMesageError").innerHTML =
-        "Mobile Number is Invalid !";
+        "Mobile number is invalid.";
     }
   }
 
-  // if the code is verifyed
+  // if the code is verified
   function verifyCode() {
     window.confirmationResult
       .confirm(otp)
@@ -124,7 +124,7 @@ export const Register = () => {
         setCheck({ ...check, otpVerify: true });
         document.querySelector(
           "#loginMesageSuccess"
-        ).innerHTML = `Verifyed Successful`;
+        ).innerHTML = `Verification successful.`;
         document.querySelector("#loginMesageError").innerHTML = "";
         document.querySelector("#loginNumber").style.display = "none";
         document.querySelector("#loginOtp").style.display = "none";

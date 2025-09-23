@@ -73,7 +73,7 @@ export const Login = () => {
             setCheck({ ...check, verify: true });
             document.querySelector(
               "#loginMesageSuccess"
-            ).innerHTML = `Otp Send To ${number} !`;
+            ).innerHTML = `OTP sent to ${number}!`;
             document.querySelector("#loginMesageError").innerHTML = "";
             document.querySelector("#nextText").style.display = "none";
             // ...
@@ -86,7 +86,7 @@ export const Login = () => {
       } else {
         document.querySelector("#loginMesageSuccess").innerHTML = ``;
         document.querySelector("#loginMesageError").innerHTML =
-          "User does not exist Please Create Your Account !";
+          "User does not exist. Please create an account.";
           setInterval(() => {
             window.location="/register"
           }, 1000);
@@ -95,7 +95,7 @@ export const Login = () => {
     } else {
       document.querySelector("#loginMesageSuccess").innerHTML = ``;
       document.querySelector("#loginMesageError").innerHTML =
-        "Mobile Number is Invalid !";
+        "Mobile number is invalid.";
     }
   }
 
@@ -109,7 +109,7 @@ export const Login = () => {
 
         document.querySelector(
           "#loginMesageSuccess"
-        ).innerHTML = `Verifyed Successful`;
+        ).innerHTML = `Verification successful.`;
         document.querySelector("#loginMesageError").innerHTML = "";
 
         dispatch(login_user(data));
@@ -149,7 +149,7 @@ export const Login = () => {
             <h1>Sign In</h1>
           </div>
           <div className="loginInputB">
-            <label htmlFor="">Enter Your Number</label>
+            <label htmlFor="">Enter your number</label>
             <span>
               <input
                 type="number"
@@ -164,13 +164,13 @@ export const Login = () => {
                 onClick={handleVerifyNumber}
                 id="nextText"
               >
-                SignIn
+                Sign In
               </button>
             </span>
           </div>
           {verify ? (
             <div className="loginInputB">
-              <label htmlFor="">Enter Your OTP</label>
+              <label htmlFor="">Enter your OTP</label>
               <span>
                 <input
                   type="number"

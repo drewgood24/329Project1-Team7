@@ -13,7 +13,7 @@ const QatarVisitBanner = () => {
                     <Box width={{base:'100%',sm:'50%'}}>
                         <Image mt={4} ml={1} src='https://i.postimg.cc/BnbWbVvj/Screenshot-2023-03-28-172144.png' />
                         <Heading pl={2} mb={2} textAlign={'left'} size='md'>Feel more love in Qatar</Heading>
-                        <Text pl={2} pb={2} textAlign={'left'}>Feel the joy of blue-sky beachside days. sunset cruises and starlit desert night</Text>
+                        <Text pl={2} pb={2} textAlign={'left'}>Feel the joy of blue-sky beachside days, sunset cruises, and starlit desert nights.</Text>
                     </Box>
                 </Flex>
 

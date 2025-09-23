@@ -69,7 +69,7 @@ const SideBar = () => {
             </Heading>
             <RadioGroup onChange={setClasses} value={classes}>
               <Stack direction="column">
-                <Radio value="eco">Ecomonic Class</Radio>
+                <Radio value="eco">Economy Class</Radio>
                 <Radio value="business">Business Class</Radio>
                 <Radio value="prime">Premium</Radio>
               </Stack>
