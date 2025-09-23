@@ -146,7 +146,7 @@ export const Login = () => {
            
           <div className="loginHead">
           <hr /><hr /><hr />
-            <h1>SignIn</h1>
+            <h1>Sign In</h1>
           </div>
           <div className="loginInputB">
             <label htmlFor="">Enter Your Number</label>

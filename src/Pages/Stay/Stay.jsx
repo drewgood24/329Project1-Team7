@@ -2,7 +2,7 @@ import React,{useState} from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import data from "./city";
 import ShowCalender from "./ShowCalender";
-import { Button,} from "@chakra-ui/react";
+import { Button, useColorMode, useColorModeValue,} from "@chakra-ui/react";
 import styles from "./Stay.module.css";
 import {Link} from "react-router-dom";
 import { useDispatch } from "react-redux";
@@ -44,7 +44,7 @@ function Stay() {
 
   return (
     <div className="App" style={{marginLeft:"230px",position:"relative", display:"flex"}}>
-      <header style={{ backgroundColor: "white", margin: "20px" , width:"400px"}}>
+      <header style={{ backgroundColor: "gray.700", margin: "20px" , width:"400px"}}>
         <div style={{ width: 400 ,}}>
           <ReactSearchAutocomplete
             items={data}

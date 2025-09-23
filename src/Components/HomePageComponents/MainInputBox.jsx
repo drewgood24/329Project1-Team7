@@ -10,11 +10,11 @@ const MainInputBox = () => {
             <Tabs position="relative" variant="unstyled"  >
                 <Center>
                     <TabList borderBottom='1px solid #BDBDBD' width={'80%'} justifyContent={'space-evenly'} pt={5} pb={3} >
-                        <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold' >Stays</Tab>
-                        <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold'>Flight</Tab>
-                        <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold'>Cars</Tab>
-                        <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold'>Things to do</Tab>
-                        <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold'>Packages</Tab>
+                        <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold' cursor="pointer" _hover={{color: "blue.500"}}>Stays</Tab>
+                        <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold' cursor="pointer" _hover={{color: "blue.500"}}>Flight</Tab>
+                        <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold' cursor="pointer" _hover={{color: "blue.500"}}>Cars</Tab>
+                        <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold' cursor="pointer" _hover={{color: "blue.500"}}>Things to do</Tab>
+                        <Tab _selected={{ color: 'blue.500'}} fontWeight='semibold' cursor="pointer" _hover={{color: "blue.500"}}>Packages</Tab>
                     </TabList>
                 </Center>
                 <TabIndicator
