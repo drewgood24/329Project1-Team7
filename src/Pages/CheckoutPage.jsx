@@ -87,7 +87,7 @@ const CheckoutPage = () => {
               </Box>
 
 
-              <Box textAlign={'left'} display={'flex'} >
+              <Box textAlign={'left'} display={'flex'} alignItems={'center'} >
                 <Input type='checkbox'/><Heading ml={2} >Receive text alerts about this trip (free of charge).</Heading>
               </Box>
 
