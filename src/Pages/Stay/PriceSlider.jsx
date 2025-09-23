@@ -10,7 +10,7 @@ const PriceSlider = () => {
     setSliderValues({ ...sliderValues, [name]: parseInt(value, 10) });
   };
 
-  const formatSliderValue = (value) => `₹${value.toLocaleString()}`;
+  const formatSliderValue = (value) => `$${value.toLocaleString()}`;
 
   
   return (

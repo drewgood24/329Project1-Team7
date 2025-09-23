@@ -3056,7 +3056,7 @@
       "pernight": "Per Night",
       "emiTag": "EMI",
       "font12 3": "starts at",
-      "font16": "₹ 3,162",
+      "font16": "$ 3,162",
       "price": 3800,
       "latoBold 14": "No Cost",
       "id": 164
@@ -3077,7 +3077,7 @@
       "pernight": "Per Night",
       "emiTag": "EMI",
       "font12 3": "starts at",
-      "font16": "₹ 3,790",
+      "font16": "$ 3,790",
       "price": 5301,
       "latoBold 14": "No Cost",
       "id": 166
@@ -3098,7 +3098,7 @@
       "pernight": "Per Night",
       "emiTag": "EMI",
       "font12 3": "starts at",
-      "font16": "₹ 1,371",
+      "font16": "$ 1,371",
       "price": 1199,
       "latoBold 14": "No Cost",
       "id": 167
@@ -4831,7 +4831,7 @@
       "title": "Tour De Kolkata",
       "rating": "122 ",
       "adress": "27 Mirza Ghalib Street Mirza Ghalib Street, Kolkata (Calcutta) 700016 India",
-      "price": "₹2,532"
+      "price": "$2,532"
     },
     {
       "id": 2,
@@ -4840,7 +4840,7 @@
       "title": "Mother House",
       "rating": "1,587 ",
       "adress": "Mother House A J C Bose Road, Kolkata (Calcutta) 700016 India",
-      "price": "₹2,200"
+      "price": "$2,200"
     },
     {
       "id": 3,
@@ -4849,7 +4849,7 @@
       "title": "Birla Temple",
       "rating": "481 ",
       "adress": "Ashutosh Chowdhury Road 29 Ashutosh Choudhury Avenue, Kolkata (Calcutta) 700019 India",
-      "price": "₹3,500"
+      "price": "$3,500"
     },
     {
       "id": 4,
@@ -4858,7 +4858,7 @@
       "title": "Quest Mall",
       "rating": "328 ",
       "adress": "Syed Amir Ali Ave Park Circus, Ballygunge, Kolkata (Calcutta) India",
-      "price": "₹3,500"
+      "price": "$3,500"
     },
     {
       "id": 5,
@@ -4867,7 +4867,7 @@
       "title": "South Park Street Cemetery",
       "rating": "540 ",
       "adress": "Kolkata (Calcutta) India",
-      "price": "₹2,200"
+      "price": "$2,200"
     },
     {
       "id": 6,
@@ -4876,7 +4876,7 @@
       "title": "Tagore House",
       "rating": "134 ",
       "adress": "Kolkata (Calcutta) India",
-      "price": "₹3,500"
+      "price": "$3,500"
     },
     {
       "id": 7,
@@ -4885,7 +4885,7 @@
       "title": "Eden Gardens",
       "rating": "1,351 ",
       "adress": "Kolkata Centre, Kolkata (Calcutta) 700021 India",
-      "price": "₹517"
+      "price": "$517"
     },
     {
       "id": 8,
@@ -4894,7 +4894,7 @@
       "title": "Gariahat Market",
       "rating": "345 ",
       "adress": "212 Rash Behari Avenue Gariahat Crossing, Kolkata (Calcutta) 700019 India",
-      "price": "₹3,500"
+      "price": "$3,500"
     },
     {
       "id": 9,
@@ -4912,7 +4912,7 @@
       "title": "Birla Industrial & Technological Museum",
       "rating": "205 ",
       "adress": "Gurusaday Road Beside Ice Skating Rink, adjacent to Modern High School, Kolkata (Calcutta) 700019 India",
-      "price": "₹3,500"
+      "price": "$3,500"
     },
     {
       "id": 11,
@@ -4921,7 +4921,7 @@
       "title": "Park Street",
       "rating": "2,090 ",
       "adress": "Mother Teresa Sarani, Kolkata (Calcutta) 700016 India",
-      "price": "₹988"
+      "price": "$988"
     },
     {
       "id": 12,
@@ -4930,7 +4930,7 @@
       "title": "College Street (Boi Para)",
       "rating": "826 ",
       "adress": "Kolkata (Calcutta) India",
-      "price": "₹2,200"
+      "price": "$2,200"
     },
     {
       "id": 13,
@@ -4939,7 +4939,7 @@
       "title": "Rabindra Sarovar",
       "rating": "242 ",
       "adress": "Southern Avenue, Golpark, Tollygunge, Dhakuria, Lake Gardens, Kolkata (Calcutta) 700029 India",
-      "price": "₹3,500"
+      "price": "$3,500"
     },
     {
       "id": 14,
@@ -4948,7 +4948,7 @@
       "title": "Victoria Memorial Hall",
       "rating": "4,661 ",
       "adress": "1 Queen's Way, Kolkata (Calcutta) India",
-      "price": "₹853"
+      "price": "$853"
     },
     {
       "id": 15,
@@ -4966,7 +4966,7 @@
       "title": "Howrah Bridge",
       "rating": "2,626 ",
       "adress": "Jagganath Ghat 1, Strand Road, Kolkata (Calcutta) 700001 India",
-      "price": "₹2,200"
+      "price": "$2,200"
     },
     {
       "id": 17,
@@ -4984,7 +4984,7 @@
       "title": "St. Paul's Cathedral",
       "rating": "615 ",
       "adress": "1A, Cathedral Road, Kolkata (Calcutta) 700071 India",
-      "price": "₹2,616"
+      "price": "$2,616"
     },
     {
       "id": 19,
@@ -5002,7 +5002,7 @@
       "title": "Nicco Parks & Resorts Limited",
       "rating": "401 ",
       "adress": "Jheel Meel, Sector IV Salt Lake place, Kolkata (Calcutta) 700106 India",
-      "price": "₹3,500"
+      "price": "$3,500"
     },
     {
       "id": 21,
@@ -5011,7 +5011,7 @@
       "title": "Maidan",
       "rating": "350 ",
       "adress": "Just south of B.B.D. Bagh to just north of Alipore and from the Hooghly River to J. L. Nehru Rd. and the shops of Park St., Kolkata (Calcutta) India",
-      "price": "₹3,376"
+      "price": "$3,376"
     },
     {
       "id": 22,
@@ -5029,7 +5029,7 @@
       "title": "Netaji Bhawan",
       "rating": "110 ",
       "adress": "38/2 Lala Lajpat Rai Sarani, Kolkata (Calcutta) India",
-      "price": "₹6,500"
+      "price": "$6,500"
     },
     {
       "id": 24,
@@ -5038,7 +5038,7 @@
       "title": "New Market",
       "rating": "809 ",
       "adress": "Lindsay Street at Free School Street, Kolkata (Calcutta) India",
-      "price": "₹2,532"
+      "price": "$2,532"
     },
     {
       "id": 25,
@@ -5047,7 +5047,7 @@
       "title": "Parashnath Jain Temple",
       "rating": "179 ",
       "adress": "11/A Heysham Road Near Elgin Road Forum Mall, Kolkata (Calcutta) 700020 India",
-      "price": "₹3,500"
+      "price": "$3,500"
     },
     {
       "id": 26,
@@ -5056,7 +5056,7 @@
       "title": "Birla Planetarium",
       "rating": "313 ",
       "adress": "Maidan Chowringhee, Kolkata (Calcutta) India",
-      "price": "₹2,026"
+      "price": "$2,026"
     },
     {
       "id": 27,
@@ -5065,7 +5065,7 @@
       "title": "Indian Museum (Jadu Ghar)",
       "rating": "996 ",
       "adress": "27 Jawaharlal Nehru Rd, Kolkata (Calcutta) 700016 India",
-      "price": "₹1,941"
+      "price": "$1,941"
     },
     {
       "id": 28,
@@ -5074,7 +5074,7 @@
       "title": "Prinsep Ghat",
       "rating": "676 ",
       "adress": "Strand Rd, Kolkata (Calcutta) India",
-      "price": "₹988"
+      "price": "$988"
     },
     {
       "id": 29,
@@ -5083,7 +5083,7 @@
       "title": "St. John's Church",
       "rating": "236 ",
       "adress": "2/2 Council House Street Opp Dewars Garage, Kolkata (Calcutta) 700001 India",
-      "price": "₹2,200"
+      "price": "$2,200"
     },
     {
       "id": 30,
@@ -5092,7 +5092,7 @@
       "title": "Jorasanko Thakur Bari",
       "rating": "328 ",
       "adress": "6/4 Dwarakanath Tagore Lane Rabindra Bharati University Campus, Jorasanko, Kolkata (Calcutta) India",
-      "price": "₹3,500"
+      "price": "$3,500"
     },
     {
       "id": 31,

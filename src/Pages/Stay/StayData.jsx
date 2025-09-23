@@ -76,7 +76,7 @@ console.log(data)
             <div className="stay-details">
               <div className="stay-price">
                 <span>Price:</span>
-                <p>₹{hotel.price.toLocaleString()}</p>
+                <p>${hotel.price.toLocaleString()}</p>
               </div>
               <div className="stay-rating">
                 <span>Rating:</span>

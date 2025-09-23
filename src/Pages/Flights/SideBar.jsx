@@ -55,10 +55,10 @@ const SideBar = () => {
             </Heading>
             <RadioGroup onChange={setPriceValue} value={priceValue}>
               <Stack direction="column">
-                <Radio value="5">₹ 4000 - ₹ 5000</Radio>
-                <Radio value="6">₹ 5000 - ₹ 6000</Radio>
-                <Radio value="7">₹ 6000 - ₹ 7000</Radio>
-                <Radio value="8">₹ 7000 - ₹ 8000</Radio>
+                <Radio value="5">$ 4000 - $ 5000</Radio>
+                <Radio value="6">$ 5000 - $ 6000</Radio>
+                <Radio value="7">$ 6000 - $ 7000</Radio>
+                <Radio value="8">$ 7000 - $ 8000</Radio>
               </Stack>
             </RadioGroup>
           </Box>

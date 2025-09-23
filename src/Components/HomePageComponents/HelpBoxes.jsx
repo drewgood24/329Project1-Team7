@@ -12,7 +12,7 @@ const HelpBoxes = () => {
             {/* <Flex>
                 <Box border='1px solid gray' rounded='7px' mt={4} >
                     <Heading textAlign={'left'} p={3} pb={1} fontSize='20px' >Change or cancel a trip</Heading>
-                    <Heading textAlign={'left'} p={3} pt={1} fontSize='12px' >Make update to your itenerary or cancel a booking</Heading>
+                    <Heading textAlign={'left'} p={3} pt={1} fontSize='12px' >Make updates to your itinerary or cancel a booking</Heading>
                 </Box>
             </Flex> */}
             <SimpleGrid gridTemplateColumns={{base:'repeat(1,1fr)',sm:'repeat(3,1fr)'}} columnGap={4} >

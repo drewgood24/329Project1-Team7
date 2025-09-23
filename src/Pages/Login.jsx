@@ -188,7 +188,7 @@ export const Login = () => {
           <div className="loginTerms">
             {/* <h2>Or USE ARE BUSSINESS ACCOUNT WITH</h2>
                     <p>By proceeding, you agree to MakeMyTrip'sT&Csand Privacy</p> */}
-            <Link to="/register">Don't have an Account</Link>
+            <Link to="/register">Don't have an account?</Link>
             <Link to="/admin">Admin Login</Link>
             <div className="inpChecbx"><input className="inp" type="checkbox" /> <h2>Keep me signed in</h2></div>
             <p>Selecting this checkbox will keep you signed into your account on this device until you sign out. Do not select this on shared devices.</p>

@@ -111,7 +111,7 @@ export const AdminDashboard = () => {
               <Link to="/admin/giftcards">View</Link>
             </div>
             <div className="dataBx">
-              <h1>Pakages Available</h1>
+              <h1>Packages Available</h1>
               {<h1>{things}</h1>}
               <Link to="/setThings">View</Link>
             </div>

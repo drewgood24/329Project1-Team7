@@ -78,7 +78,7 @@ const CheckoutPage = () => {
           <SimpleGrid mt={2} gridTemplateColumns={'63% 35%'} gap={"1%"} >
             <Box bg={'white'} p={3}  >
               <Heading textAlign={'left'} fontSize={'20px'} fontWeight={'bold'}  >Payment Method</Heading>
-              <Heading textAlign={'left'} mt={3} fontWeight={'semibold'} >₹0.00 due now. Payment information is only needed to hold your reservation.</Heading>
+              <Heading textAlign={'left'} mt={3} fontWeight={'semibold'} >$0.00 due now. Payment information is only needed to hold your reservation.</Heading>
               
               <Box display={'flex'} gap={'6px'} >
                 <Image height={'30px'} width={'30px'}  src='https://a.travel-assets.com/dms-svg/payments/cards-cc_american_express.svg' alt='image' />
@@ -99,7 +99,7 @@ const CheckoutPage = () => {
                 </Box>
                 <Box textAlign={'left'} my={2} >
                   <label>
-                    <b>Security code :</b> <Input type='text' placeholder='Mobile No' border='1px solid gray' />
+                    <b>Security code:</b> <Input type='text' placeholder='Security code' border='1px solid gray' />
                   </label>
                 </Box>
               </Box>
