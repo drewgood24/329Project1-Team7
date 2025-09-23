@@ -5,7 +5,7 @@ import {RiMessage2Fill} from 'react-icons/ri'
 import {HiCurrencyDollar} from 'react-icons/hi'
 const HelpBoxes = () => {
   return (
-    <Box width={'85%'} m={'auto'} mt={10} >
+    <Box width={'85%'} m={'auto'} mt={10} id="support">
             <Heading fontSize={'3xl'} fontWeight='semibold' textAlign={'left'} >
                 Here to help keep you on the move
             </Heading>

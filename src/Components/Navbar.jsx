@@ -82,7 +82,7 @@ import {
             
             
             
-            <Box fontWeight={'500'} fontSize={{base:'12px',sm:'16px'}} display={'flex'} >
+            <Box fontWeight={'500'} fontSize={{base:'12px',sm:'16px'}} display={'flex'} as="a" href="#support" cursor="pointer" _hover={{color: "blue.500"}}>
                 Support
             </Box>
 
@@ -94,11 +94,11 @@ import {
                 <Icon mt={0.5} mr={1}   as={IoIosNotifications} />
             </Box>
              <RouterLink to="/login">
-            <Box fontWeight={'500'}  fontSize={{base:'12px',sm:'16px'}}  mr={9} >
-                SignIn
+            <Box fontWeight={'500'}  fontSize={{base:'12px',sm:'16px'}}  mr={9} whiteSpace="nowrap" cursor="pointer" _hover={{color: "blue.500"}}>
+                Sign In
             </Box>
             </RouterLink>
-            <Button onClick={toggleColorMode}>
+            <Button onClick={toggleColorMode} cursor="pointer" _hover={{color: "blue.500"}}>
                 {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
             </Button>
 
